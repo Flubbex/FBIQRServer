@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>FBIQRServer</title>
+        <meta name="description" content="QR codes for everyone">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+	<script type="text/javascript" src="lib.js"></script>
+	<script type="text/javascript" src="data.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function()
+		{
+			//console.log(QRCode);
+			//console.log(CIA);
+			var endpoint;
+			if (PORT===80 || PORT === '80')
+				endpoint = IP;
+			else
+				endpoint = IP+":"+PORT;
+
+			//console.log("Endpoint: "+endpoint);
+			for (var key in CIA)
+			{
+				var newdiv = $("<div><h2>"+key+"</h2><p></p></div>")
+						.appendTo("#content");
+				var qrstring = endpoint+"/"+CIA[key];
+				//console.log(qrstring)
+				var qr = new QRCode(newdiv.find("p")[0],qrstring);
+				
+			}
+		});
+	</script>
+</head>
+<body>
+	<div id="content">
+	</div>
+</body>
+</html>
