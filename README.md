@@ -19,5 +19,9 @@ Right now it just shows a bare-bones page with codes.
 * Superuser is needed to open sockets. Windows will probably also throw a warning somewhere.
 * Some files will be made in the folder you provide as the CIA folder. These are removed if you terminate the program normally (CTRL+C)
 
+##Planned
+* Actual Windows support
+* Generate mixed QR-codes from subfolder
+
 ##Credits
-[Davidshimjs](https://davidshimjs.github.io) - [QRcodejs](https://davidshimjs.github.io/qrcodejs/)
+[Davidshimjs](https://github.com/davidshimjs) - [QRcodejs](https://davidshimjs.github.io/qrcodejs/)
