@@ -1,5 +1,4 @@
 #FBIQRServer
-Prettier title coming soon (?)
 ---
 ##How to use
 Linux: Do 'sudo ./fbiqrserver <ciafolder> <port>' inside the project folder
