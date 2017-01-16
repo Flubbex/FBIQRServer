@@ -1,1 +1,1 @@
-python source/main.py
+python .\source\main.py
