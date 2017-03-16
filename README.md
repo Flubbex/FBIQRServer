@@ -14,7 +14,7 @@ Note: port defaults to 80 if not provided.
 Just edit the files in the /preset folder if you wish to make things prettier.
 Right now it just shows a bare-bones page with codes.
 
-##Screenshot
+## Screenshot
 ![Following the latest trends in webdesign..](https://s30.postimg.org/wgslgb335/Screenshot_from_2017_01_16_14_58_17.png)
 
 ## Concerns
